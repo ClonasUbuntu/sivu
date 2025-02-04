@@ -1,0 +1,29 @@
+/* Rotate navigation toggle icon when pressed */
+.navbar-toggler-icon {
+    transition: transform 0.3s ease;
+}
+
+/* Rotate the icon 90 degrees when the button is active */
+.navbar-toggler.collapsed .navbar-toggler-icon {
+    transform: rotate(0deg);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    transform: rotate(90deg);
+}
+
+/* Recolor the hero section to match the website background */
+.hero {
+    background-color: #1e6ebe!important; /* Replace with the actual background color of your website */
+}
+
+/* Custom styles for the Jumbotron */
+.jumbotron {
+    background-color: #475058!important; /* Dark background color to match the website */
+    color: white; /* White text color */
+    border-radius: 0.3rem; /* Rounded corners */
+}
+
+td {
+    border-right: 1px solid black;
+}
